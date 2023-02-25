@@ -19,12 +19,13 @@ html {
 
 body {
     margin: 0;
-    line-height: inherit
+    line-height: inherit;
+    overflow: hidden;
 }
 #audio
 {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }  
@@ -771,7 +772,7 @@ select {
 }
 
 .h-60 {
-    height: 15rem
+    height: 20rem
 }
 
 .h-32 {
